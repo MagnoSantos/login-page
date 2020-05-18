@@ -26,12 +26,8 @@ class LoginPage extends StatelessWidget {
             TextFormField(
               keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
-                labelText: "E-mail",
-                labelStyle: TextStyle(
-                  color: Colors.black38,
-                  fontWeight: FontWeight.w400,
-                  fontSize: 20,
-                ),
+                icon: Icon(Icons.email),
+                hintText: "E-mail",
               ),
             ),
             SizedBox(
@@ -41,12 +37,8 @@ class LoginPage extends StatelessWidget {
               keyboardType: TextInputType.text,
               obscureText: true,
               decoration: InputDecoration(
-                labelText: "Senha",
-                labelStyle: TextStyle(
-                  color: Colors.black38,
-                  fontWeight: FontWeight.w400,
-                  fontSize: 20,
-                ),
+                icon: Icon(Icons.lock),
+                hintText: "Senha",
               ),
             ),
             SizedBox(
